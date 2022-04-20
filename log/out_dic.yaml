@@ -1,0 +1,3796 @@
+Noor Local:
+  hostid: '10525'
+  items:
+    App status:
+      itemid: '43104'
+      iteminterval: 1m
+      itemkey: app.status
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'C:\ Label:  Serial Number 12b3df4c: Space utilization':
+      itemid: '43351'
+      iteminterval: 1m
+      itemkey: vfs.fs.pused[storageUsedPercentage.1]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'C:\ Label:  Serial Number 12b3df4c: Total space':
+      itemid: '43353'
+      iteminterval: 1m
+      itemkey: vfs.fs.total[hrStorageSize.1]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'YES'
+    'C:\ Label:  Serial Number 12b3df4c: Used space':
+      itemid: '43355'
+      iteminterval: 1m
+      itemkey: vfs.fs.used[hrStorageUsed.1]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'YES'
+    CPU utilization:
+      itemid: '43326'
+      iteminterval: 1m
+      itemkey: system.cpu.util
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'E:\ Label:  Serial Number be44b7e1: Space utilization':
+      itemid: '43352'
+      iteminterval: 1m
+      itemkey: vfs.fs.pused[storageUsedPercentage.2]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'E:\ Label:  Serial Number be44b7e1: Total space':
+      itemid: '43354'
+      iteminterval: 1m
+      itemkey: vfs.fs.total[hrStorageSize.2]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'YES'
+    'E:\ Label:  Serial Number be44b7e1: Used space':
+      itemid: '43356'
+      iteminterval: 1m
+      itemkey: vfs.fs.used[hrStorageUsed.2]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'YES'
+    ICMP loss:
+      itemid: '43322'
+      iteminterval: 1m
+      itemkey: icmppingloss
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    ICMP ping:
+      itemid: '43321'
+      iteminterval: 1m
+      itemkey: icmpping
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    ICMP response time:
+      itemid: '43323'
+      iteminterval: 1m
+      itemkey: icmppingsec
+      itemstatus: '0'
+      itemunit: s
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Interface ethernet_0(Ethernet-WFP Native MAC Layer LightWeight Filter-0000): Bits received':
+      itemid: '43413'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.12]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_0(Ethernet-WFP Native MAC Layer LightWeight Filter-0000): Bits sent':
+      itemid: '43482'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.12]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_0(Ethernet-WFP Native MAC Layer LightWeight Filter-0000): Inbound packets discarded':
+      itemid: '43367'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.12]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_0(Ethernet-WFP Native MAC Layer LightWeight Filter-0000): Inbound packets with errors':
+      itemid: '43390'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.12]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_0(Ethernet-WFP Native MAC Layer LightWeight Filter-0000): Interface type':
+      itemid: '43551'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.12]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_0(Ethernet-WFP Native MAC Layer LightWeight Filter-0000): Operational status':
+      itemid: '43528'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.12]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_0(Ethernet-WFP Native MAC Layer LightWeight Filter-0000): Outbound packets discarded':
+      itemid: '43436'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.12]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_0(Ethernet-WFP Native MAC Layer LightWeight Filter-0000): Outbound packets with errors':
+      itemid: '43459'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.12]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_0(Ethernet-WFP Native MAC Layer LightWeight Filter-0000): Speed':
+      itemid: '43505'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.12]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_1(Ethernet-QoS Packet Scheduler-0000): Bits received':
+      itemid: '43414'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.13]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_1(Ethernet-QoS Packet Scheduler-0000): Bits sent':
+      itemid: '43483'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.13]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_1(Ethernet-QoS Packet Scheduler-0000): Inbound packets discarded':
+      itemid: '43368'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.13]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_1(Ethernet-QoS Packet Scheduler-0000): Inbound packets with errors':
+      itemid: '43391'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.13]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_1(Ethernet-QoS Packet Scheduler-0000): Interface type':
+      itemid: '43552'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.13]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_1(Ethernet-QoS Packet Scheduler-0000): Operational status':
+      itemid: '43529'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.13]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_1(Ethernet-QoS Packet Scheduler-0000): Outbound packets discarded':
+      itemid: '43437'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.13]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_1(Ethernet-QoS Packet Scheduler-0000): Outbound packets with errors':
+      itemid: '43460'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.13]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_1(Ethernet-QoS Packet Scheduler-0000): Speed':
+      itemid: '43506'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.13]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_2(Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000): Bits received':
+      itemid: '43415'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.14]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_2(Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000): Bits sent':
+      itemid: '43484'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.14]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_2(Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000): Inbound packets discarded':
+      itemid: '43369'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.14]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_2(Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000): Inbound packets with errors':
+      itemid: '43392'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.14]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_2(Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000): Interface type':
+      itemid: '43553'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.14]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_2(Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000): Operational status':
+      itemid: '43530'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.14]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_2(Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000): Outbound packets discarded':
+      itemid: '43438'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.14]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_2(Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000): Outbound packets with errors':
+      itemid: '43461'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.14]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_2(Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000): Speed':
+      itemid: '43507'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.14]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32769(Ethernet): Bits received':
+      itemid: '43412'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.11]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32769(Ethernet): Bits sent':
+      itemid: '43481'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.11]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32769(Ethernet): Inbound packets discarded':
+      itemid: '43366'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.11]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32769(Ethernet): Inbound packets with errors':
+      itemid: '43389'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.11]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32769(Ethernet): Interface type':
+      itemid: '43550'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.11]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32769(Ethernet): Operational status':
+      itemid: '43527'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.11]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32769(Ethernet): Outbound packets discarded':
+      itemid: '43435'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.11]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32769(Ethernet): Outbound packets with errors':
+      itemid: '43458'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.11]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32769(Ethernet): Speed':
+      itemid: '43504'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.11]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32770(VMware Network Adapter VMnet1): Bits received':
+      itemid: '43411'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.10]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32770(VMware Network Adapter VMnet1): Bits sent':
+      itemid: '43480'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.10]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32770(VMware Network Adapter VMnet1): Inbound packets discarded':
+      itemid: '43365'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.10]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32770(VMware Network Adapter VMnet1): Inbound packets with errors':
+      itemid: '43388'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.10]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32770(VMware Network Adapter VMnet1): Interface type':
+      itemid: '43549'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.10]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32770(VMware Network Adapter VMnet1): Operational status':
+      itemid: '43526'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.10]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32770(VMware Network Adapter VMnet1): Outbound packets discarded':
+      itemid: '43434'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.10]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32770(VMware Network Adapter VMnet1): Outbound packets with errors':
+      itemid: '43457'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.10]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32770(VMware Network Adapter VMnet1): Speed':
+      itemid: '43503'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.10]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32771(VMware Network Adapter VMnet8): Bits received':
+      itemid: '43409'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.8]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32771(VMware Network Adapter VMnet8): Bits sent':
+      itemid: '43478'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.8]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32771(VMware Network Adapter VMnet8): Inbound packets discarded':
+      itemid: '43363'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.8]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32771(VMware Network Adapter VMnet8): Inbound packets with errors':
+      itemid: '43386'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.8]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32771(VMware Network Adapter VMnet8): Interface type':
+      itemid: '43547'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.8]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32771(VMware Network Adapter VMnet8): Operational status':
+      itemid: '43524'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.8]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32771(VMware Network Adapter VMnet8): Outbound packets discarded':
+      itemid: '43432'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.8]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32771(VMware Network Adapter VMnet8): Outbound packets with errors':
+      itemid: '43455'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.8]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface ethernet_32771(VMware Network Adapter VMnet8): Speed':
+      itemid: '43501'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.8]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface loopback_0(Loopback Pseudo-Interface 1): Bits received':
+      itemid: '43406'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.1]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface loopback_0(Loopback Pseudo-Interface 1): Bits sent':
+      itemid: '43475'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.1]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface loopback_0(Loopback Pseudo-Interface 1): Inbound packets discarded':
+      itemid: '43360'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.1]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface loopback_0(Loopback Pseudo-Interface 1): Inbound packets with errors':
+      itemid: '43383'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.1]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface loopback_0(Loopback Pseudo-Interface 1): Interface type':
+      itemid: '43544'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.1]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface loopback_0(Loopback Pseudo-Interface 1): Operational status':
+      itemid: '43521'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.1]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface loopback_0(Loopback Pseudo-Interface 1): Outbound packets discarded':
+      itemid: '43429'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.1]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface loopback_0(Loopback Pseudo-Interface 1): Outbound packets with errors':
+      itemid: '43452'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.1]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface loopback_0(Loopback Pseudo-Interface 1): Speed':
+      itemid: '43498'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.1]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_0(Wi-Fi-WFP Native MAC Layer LightWeight Filter-0000): Bits received':
+      itemid: '43416'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.15]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_0(Wi-Fi-WFP Native MAC Layer LightWeight Filter-0000): Bits sent':
+      itemid: '43485'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.15]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_0(Wi-Fi-WFP Native MAC Layer LightWeight Filter-0000): Inbound packets discarded':
+      itemid: '43370'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.15]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_0(Wi-Fi-WFP Native MAC Layer LightWeight Filter-0000): Inbound packets with errors':
+      itemid: '43393'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.15]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_0(Wi-Fi-WFP Native MAC Layer LightWeight Filter-0000): Interface type':
+      itemid: '43554'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.15]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_0(Wi-Fi-WFP Native MAC Layer LightWeight Filter-0000): Operational status':
+      itemid: '43531'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.15]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_0(Wi-Fi-WFP Native MAC Layer LightWeight Filter-0000): Outbound packets discarded':
+      itemid: '43439'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.15]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_0(Wi-Fi-WFP Native MAC Layer LightWeight Filter-0000): Outbound packets with errors':
+      itemid: '43462'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.15]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_0(Wi-Fi-WFP Native MAC Layer LightWeight Filter-0000): Speed':
+      itemid: '43508'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.15]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_1(Wi-Fi-Virtual WiFi Filter Driver-0000): Bits received':
+      itemid: '43417'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.16]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_1(Wi-Fi-Virtual WiFi Filter Driver-0000): Bits sent':
+      itemid: '43486'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.16]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_1(Wi-Fi-Virtual WiFi Filter Driver-0000): Inbound packets discarded':
+      itemid: '43371'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.16]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_1(Wi-Fi-Virtual WiFi Filter Driver-0000): Inbound packets with errors':
+      itemid: '43394'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.16]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_1(Wi-Fi-Virtual WiFi Filter Driver-0000): Interface type':
+      itemid: '43555'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.16]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_1(Wi-Fi-Virtual WiFi Filter Driver-0000): Operational status':
+      itemid: '43532'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.16]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_1(Wi-Fi-Virtual WiFi Filter Driver-0000): Outbound packets discarded':
+      itemid: '43440'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.16]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_1(Wi-Fi-Virtual WiFi Filter Driver-0000): Outbound packets with errors':
+      itemid: '43463'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.16]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_1(Wi-Fi-Virtual WiFi Filter Driver-0000): Speed':
+      itemid: '43509'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.16]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_10(Local Area Connection* 2-Native WiFi Filter Driver-0000): Bits received':
+      itemid: '43426'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.25]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_10(Local Area Connection* 2-Native WiFi Filter Driver-0000): Bits sent':
+      itemid: '43495'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.25]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_10(Local Area Connection* 2-Native WiFi Filter Driver-0000): Inbound packets discarded':
+      itemid: '43380'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.25]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_10(Local Area Connection* 2-Native WiFi Filter Driver-0000): Inbound packets with errors':
+      itemid: '43403'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.25]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_10(Local Area Connection* 2-Native WiFi Filter Driver-0000): Interface type':
+      itemid: '43564'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.25]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_10(Local Area Connection* 2-Native WiFi Filter Driver-0000): Operational status':
+      itemid: '43541'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.25]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_10(Local Area Connection* 2-Native WiFi Filter Driver-0000): Outbound packets discarded':
+      itemid: '43449'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.25]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_10(Local Area Connection* 2-Native WiFi Filter Driver-0000): Outbound packets with errors':
+      itemid: '43472'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.25]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_10(Local Area Connection* 2-Native WiFi Filter Driver-0000): Speed':
+      itemid: '43518'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.25]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_11(Local Area Connection* 2-QoS Packet Scheduler-0000): Bits received':
+      itemid: '43427'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.26]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_11(Local Area Connection* 2-QoS Packet Scheduler-0000): Bits sent':
+      itemid: '43496'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.26]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_11(Local Area Connection* 2-QoS Packet Scheduler-0000): Inbound packets discarded':
+      itemid: '43381'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.26]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_11(Local Area Connection* 2-QoS Packet Scheduler-0000): Inbound packets with errors':
+      itemid: '43404'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.26]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_11(Local Area Connection* 2-QoS Packet Scheduler-0000): Interface type':
+      itemid: '43565'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.26]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_11(Local Area Connection* 2-QoS Packet Scheduler-0000): Operational status':
+      itemid: '43542'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.26]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_11(Local Area Connection* 2-QoS Packet Scheduler-0000): Outbound packets discarded':
+      itemid: '43450'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.26]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_11(Local Area Connection* 2-QoS Packet Scheduler-0000): Outbound packets with errors':
+      itemid: '43473'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.26]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_11(Local Area Connection* 2-QoS Packet Scheduler-0000): Speed':
+      itemid: '43519'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.26]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_12(Local Area Connection* 2-WFP 802.3 MAC Layer LightWeight Filter-): Bits received':
+      itemid: '43428'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.27]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_12(Local Area Connection* 2-WFP 802.3 MAC Layer LightWeight Filter-): Bits sent':
+      itemid: '43497'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.27]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_12(Local Area Connection* 2-WFP 802.3 MAC Layer LightWeight Filter-): Inbound packets discarded':
+      itemid: '43382'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.27]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_12(Local Area Connection* 2-WFP 802.3 MAC Layer LightWeight Filter-): Inbound packets with errors':
+      itemid: '43405'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.27]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_12(Local Area Connection* 2-WFP 802.3 MAC Layer LightWeight Filter-): Interface type':
+      itemid: '43566'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.27]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_12(Local Area Connection* 2-WFP 802.3 MAC Layer LightWeight Filter-): Operational status':
+      itemid: '43543'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.27]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_12(Local Area Connection* 2-WFP 802.3 MAC Layer LightWeight Filter-): Outbound packets discarded':
+      itemid: '43451'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.27]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_12(Local Area Connection* 2-WFP 802.3 MAC Layer LightWeight Filter-): Outbound packets with errors':
+      itemid: '43474'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.27]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_12(Local Area Connection* 2-WFP 802.3 MAC Layer LightWeight Filter-): Speed':
+      itemid: '43520'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.27]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_2(Wi-Fi-Native WiFi Filter Driver-0000): Bits received':
+      itemid: '43418'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.17]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_2(Wi-Fi-Native WiFi Filter Driver-0000): Bits sent':
+      itemid: '43487'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.17]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_2(Wi-Fi-Native WiFi Filter Driver-0000): Inbound packets discarded':
+      itemid: '43372'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.17]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_2(Wi-Fi-Native WiFi Filter Driver-0000): Inbound packets with errors':
+      itemid: '43395'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.17]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_2(Wi-Fi-Native WiFi Filter Driver-0000): Interface type':
+      itemid: '43556'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.17]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_2(Wi-Fi-Native WiFi Filter Driver-0000): Operational status':
+      itemid: '43533'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.17]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_2(Wi-Fi-Native WiFi Filter Driver-0000): Outbound packets discarded':
+      itemid: '43441'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.17]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_2(Wi-Fi-Native WiFi Filter Driver-0000): Outbound packets with errors':
+      itemid: '43464'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.17]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_2(Wi-Fi-Native WiFi Filter Driver-0000): Speed':
+      itemid: '43510'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.17]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_3(Wi-Fi-QoS Packet Scheduler-0000): Bits received':
+      itemid: '43419'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.18]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_3(Wi-Fi-QoS Packet Scheduler-0000): Bits sent':
+      itemid: '43488'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.18]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_3(Wi-Fi-QoS Packet Scheduler-0000): Inbound packets discarded':
+      itemid: '43373'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.18]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_3(Wi-Fi-QoS Packet Scheduler-0000): Inbound packets with errors':
+      itemid: '43396'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.18]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_3(Wi-Fi-QoS Packet Scheduler-0000): Interface type':
+      itemid: '43557'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.18]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_3(Wi-Fi-QoS Packet Scheduler-0000): Operational status':
+      itemid: '43534'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.18]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_3(Wi-Fi-QoS Packet Scheduler-0000): Outbound packets discarded':
+      itemid: '43442'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.18]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_3(Wi-Fi-QoS Packet Scheduler-0000): Outbound packets with errors':
+      itemid: '43465'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.18]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_3(Wi-Fi-QoS Packet Scheduler-0000): Speed':
+      itemid: '43511'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.18]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32768(Wi-Fi): Bits received':
+      itemid: '43410'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.9]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32768(Wi-Fi): Bits sent':
+      itemid: '43479'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.9]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32768(Wi-Fi): Inbound packets discarded':
+      itemid: '43364'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.9]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32768(Wi-Fi): Inbound packets with errors':
+      itemid: '43387'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.9]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32768(Wi-Fi): Interface type':
+      itemid: '43548'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.9]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32768(Wi-Fi): Operational status':
+      itemid: '43525'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.9]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32768(Wi-Fi): Outbound packets discarded':
+      itemid: '43433'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.9]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32768(Wi-Fi): Outbound packets with errors':
+      itemid: '43456'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.9]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32768(Wi-Fi): Speed':
+      itemid: '43502'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.9]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32769(Local Area Connection* 1): Bits received':
+      itemid: '43407'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.4]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32769(Local Area Connection* 1): Bits sent':
+      itemid: '43476'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.4]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32769(Local Area Connection* 1): Inbound packets discarded':
+      itemid: '43361'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.4]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32769(Local Area Connection* 1): Inbound packets with errors':
+      itemid: '43384'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.4]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32769(Local Area Connection* 1): Interface type':
+      itemid: '43545'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.4]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32769(Local Area Connection* 1): Operational status':
+      itemid: '43522'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.4]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32769(Local Area Connection* 1): Outbound packets discarded':
+      itemid: '43430'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.4]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32769(Local Area Connection* 1): Outbound packets with errors':
+      itemid: '43453'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.4]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32769(Local Area Connection* 1): Speed':
+      itemid: '43499'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.4]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32770(Local Area Connection* 2): Bits received':
+      itemid: '43408'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.5]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32770(Local Area Connection* 2): Bits sent':
+      itemid: '43477'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.5]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32770(Local Area Connection* 2): Inbound packets discarded':
+      itemid: '43362'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.5]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32770(Local Area Connection* 2): Inbound packets with errors':
+      itemid: '43385'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.5]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32770(Local Area Connection* 2): Interface type':
+      itemid: '43546'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.5]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32770(Local Area Connection* 2): Operational status':
+      itemid: '43523'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.5]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32770(Local Area Connection* 2): Outbound packets discarded':
+      itemid: '43431'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.5]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32770(Local Area Connection* 2): Outbound packets with errors':
+      itemid: '43454'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.5]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_32770(Local Area Connection* 2): Speed':
+      itemid: '43500'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.5]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_4(Wi-Fi-WFP 802.3 MAC Layer LightWeight Filter-0000): Bits received':
+      itemid: '43420'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.19]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_4(Wi-Fi-WFP 802.3 MAC Layer LightWeight Filter-0000): Bits sent':
+      itemid: '43489'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.19]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_4(Wi-Fi-WFP 802.3 MAC Layer LightWeight Filter-0000): Inbound packets discarded':
+      itemid: '43374'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.19]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_4(Wi-Fi-WFP 802.3 MAC Layer LightWeight Filter-0000): Inbound packets with errors':
+      itemid: '43397'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.19]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_4(Wi-Fi-WFP 802.3 MAC Layer LightWeight Filter-0000): Interface type':
+      itemid: '43558'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.19]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_4(Wi-Fi-WFP 802.3 MAC Layer LightWeight Filter-0000): Operational status':
+      itemid: '43535'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.19]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_4(Wi-Fi-WFP 802.3 MAC Layer LightWeight Filter-0000): Outbound packets discarded':
+      itemid: '43443'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.19]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_4(Wi-Fi-WFP 802.3 MAC Layer LightWeight Filter-0000): Outbound packets with errors':
+      itemid: '43466'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.19]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_4(Wi-Fi-WFP 802.3 MAC Layer LightWeight Filter-0000): Speed':
+      itemid: '43512'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.19]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_5(Local Area Connection* 1-WFP Native MAC Layer LightWeight Filter): Bits received':
+      itemid: '43421'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.20]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_5(Local Area Connection* 1-WFP Native MAC Layer LightWeight Filter): Bits sent':
+      itemid: '43490'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.20]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_5(Local Area Connection* 1-WFP Native MAC Layer LightWeight Filter): Inbound packets discarded':
+      itemid: '43375'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.20]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_5(Local Area Connection* 1-WFP Native MAC Layer LightWeight Filter): Inbound packets with errors':
+      itemid: '43398'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.20]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_5(Local Area Connection* 1-WFP Native MAC Layer LightWeight Filter): Interface type':
+      itemid: '43559'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.20]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_5(Local Area Connection* 1-WFP Native MAC Layer LightWeight Filter): Operational status':
+      itemid: '43536'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.20]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_5(Local Area Connection* 1-WFP Native MAC Layer LightWeight Filter): Outbound packets discarded':
+      itemid: '43444'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.20]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_5(Local Area Connection* 1-WFP Native MAC Layer LightWeight Filter): Outbound packets with errors':
+      itemid: '43467'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.20]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_5(Local Area Connection* 1-WFP Native MAC Layer LightWeight Filter): Speed':
+      itemid: '43513'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.20]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_6(Local Area Connection* 1-Native WiFi Filter Driver-0000): Bits received':
+      itemid: '43422'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.21]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_6(Local Area Connection* 1-Native WiFi Filter Driver-0000): Bits sent':
+      itemid: '43491'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.21]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_6(Local Area Connection* 1-Native WiFi Filter Driver-0000): Inbound packets discarded':
+      itemid: '43376'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.21]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_6(Local Area Connection* 1-Native WiFi Filter Driver-0000): Inbound packets with errors':
+      itemid: '43399'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.21]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_6(Local Area Connection* 1-Native WiFi Filter Driver-0000): Interface type':
+      itemid: '43560'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.21]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_6(Local Area Connection* 1-Native WiFi Filter Driver-0000): Operational status':
+      itemid: '43537'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.21]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_6(Local Area Connection* 1-Native WiFi Filter Driver-0000): Outbound packets discarded':
+      itemid: '43445'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.21]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_6(Local Area Connection* 1-Native WiFi Filter Driver-0000): Outbound packets with errors':
+      itemid: '43468'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.21]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_6(Local Area Connection* 1-Native WiFi Filter Driver-0000): Speed':
+      itemid: '43514'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.21]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_7(Local Area Connection* 1-QoS Packet Scheduler-0000): Bits received':
+      itemid: '43423'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.22]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_7(Local Area Connection* 1-QoS Packet Scheduler-0000): Bits sent':
+      itemid: '43492'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.22]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_7(Local Area Connection* 1-QoS Packet Scheduler-0000): Inbound packets discarded':
+      itemid: '43377'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.22]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_7(Local Area Connection* 1-QoS Packet Scheduler-0000): Inbound packets with errors':
+      itemid: '43400'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.22]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_7(Local Area Connection* 1-QoS Packet Scheduler-0000): Interface type':
+      itemid: '43561'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.22]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_7(Local Area Connection* 1-QoS Packet Scheduler-0000): Operational status':
+      itemid: '43538'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.22]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_7(Local Area Connection* 1-QoS Packet Scheduler-0000): Outbound packets discarded':
+      itemid: '43446'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.22]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_7(Local Area Connection* 1-QoS Packet Scheduler-0000): Outbound packets with errors':
+      itemid: '43469'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.22]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_7(Local Area Connection* 1-QoS Packet Scheduler-0000): Speed':
+      itemid: '43515'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.22]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_8(Local Area Connection* 1-WFP 802.3 MAC Layer LightWeight Filter-): Bits received':
+      itemid: '43424'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.23]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_8(Local Area Connection* 1-WFP 802.3 MAC Layer LightWeight Filter-): Bits sent':
+      itemid: '43493'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.23]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_8(Local Area Connection* 1-WFP 802.3 MAC Layer LightWeight Filter-): Inbound packets discarded':
+      itemid: '43378'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.23]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_8(Local Area Connection* 1-WFP 802.3 MAC Layer LightWeight Filter-): Inbound packets with errors':
+      itemid: '43401'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.23]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_8(Local Area Connection* 1-WFP 802.3 MAC Layer LightWeight Filter-): Interface type':
+      itemid: '43562'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.23]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_8(Local Area Connection* 1-WFP 802.3 MAC Layer LightWeight Filter-): Operational status':
+      itemid: '43539'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.23]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_8(Local Area Connection* 1-WFP 802.3 MAC Layer LightWeight Filter-): Outbound packets discarded':
+      itemid: '43447'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.23]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_8(Local Area Connection* 1-WFP 802.3 MAC Layer LightWeight Filter-): Outbound packets with errors':
+      itemid: '43470'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.23]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_8(Local Area Connection* 1-WFP 802.3 MAC Layer LightWeight Filter-): Speed':
+      itemid: '43516'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.23]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_9(Local Area Connection* 2-WFP Native MAC Layer LightWeight Filter): Bits received':
+      itemid: '43425'
+      iteminterval: 3m
+      itemkey: net.if.in[ifInOctets.24]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_9(Local Area Connection* 2-WFP Native MAC Layer LightWeight Filter): Bits sent':
+      itemid: '43494'
+      iteminterval: 3m
+      itemkey: net.if.out[ifOutOctets.24]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_9(Local Area Connection* 2-WFP Native MAC Layer LightWeight Filter): Inbound packets discarded':
+      itemid: '43379'
+      iteminterval: 3m
+      itemkey: net.if.in.discards[ifInDiscards.24]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_9(Local Area Connection* 2-WFP Native MAC Layer LightWeight Filter): Inbound packets with errors':
+      itemid: '43402'
+      iteminterval: 3m
+      itemkey: net.if.in.errors[ifInErrors.24]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_9(Local Area Connection* 2-WFP Native MAC Layer LightWeight Filter): Interface type':
+      itemid: '43563'
+      iteminterval: 1h
+      itemkey: net.if.type[ifType.24]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_9(Local Area Connection* 2-WFP Native MAC Layer LightWeight Filter): Operational status':
+      itemid: '43540'
+      iteminterval: 1m
+      itemkey: net.if.status[ifOperStatus.24]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_9(Local Area Connection* 2-WFP Native MAC Layer LightWeight Filter): Outbound packets discarded':
+      itemid: '43448'
+      iteminterval: 3m
+      itemkey: net.if.out.discards[ifOutDiscards.24]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_9(Local Area Connection* 2-WFP Native MAC Layer LightWeight Filter): Outbound packets with errors':
+      itemid: '43471'
+      iteminterval: 3m
+      itemkey: net.if.out.errors[ifOutErrors.24]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Interface wireless_9(Local Area Connection* 2-WFP Native MAC Layer LightWeight Filter): Speed':
+      itemid: '43517'
+      iteminterval: 5m
+      itemkey: net.if.speed[ifHighSpeed.24]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Physical Memory: Memory utilization':
+      itemid: '43359'
+      iteminterval: 1m
+      itemkey: vm.memory.util[memoryUsedPercentage.5]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Physical Memory: Total memory':
+      itemid: '43357'
+      iteminterval: 1m
+      itemkey: vm.memory.total[hrStorageSize.5]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Physical Memory: Used memory':
+      itemid: '43358'
+      iteminterval: 1m
+      itemkey: vm.memory.used[hrStorageUsed.5]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'YES'
+    SNMP agent availability:
+      itemid: '43332'
+      iteminterval: 1m
+      itemkey: zabbix[host,snmp,available]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    SNMP traps (fallback):
+      itemid: '43324'
+      iteminterval: 1m
+      itemkey: snmptrap.fallback
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '2'
+      stat: 'YES'
+    System contact details:
+      itemid: '43325'
+      iteminterval: 15m
+      itemkey: system.contact[sysContact.0]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'YES'
+    System description:
+      itemid: '43327'
+      iteminterval: 15m
+      itemkey: system.descr[sysDescr.0]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'YES'
+    System location:
+      itemid: '43328'
+      iteminterval: 15m
+      itemkey: system.location[sysLocation.0]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'YES'
+    System name:
+      itemid: '43329'
+      iteminterval: 15m
+      itemkey: system.name
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'YES'
+    System object ID:
+      itemid: '43330'
+      iteminterval: 15m
+      itemkey: system.objectid[sysObjectID.0]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'YES'
+    Uptime:
+      itemid: '43331'
+      iteminterval: 30s
+      itemkey: system.uptime[sysUpTime.0]
+      itemstatus: '0'
+      itemunit: uptime
+      itemvaluetype: '3'
+      stat: 'YES'
+  stat: 'YES'
+Zabbix server:
+  hostid: '10084'
+  items:
+    '/: Free inodes in %':
+      itemid: '42775'
+      iteminterval: 1m
+      itemkey: vfs.fs.inode[/,pfree]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    '/: Space utilization':
+      itemid: '42776'
+      iteminterval: 1m
+      itemkey: vfs.fs.size[/,pused]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    '/: Total space':
+      itemid: '42777'
+      iteminterval: 1m
+      itemkey: vfs.fs.size[/,total]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    '/: Used space':
+      itemid: '42778'
+      iteminterval: 1m
+      itemkey: vfs.fs.size[/,used]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    Available memory:
+      itemid: '42243'
+      iteminterval: 1m
+      itemkey: vm.memory.size[available]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    Available memory in %:
+      itemid: '42244'
+      iteminterval: 1m
+      itemkey: vm.memory.size[pavailable]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    CPU guest nice time:
+      itemid: '42263'
+      iteminterval: 1m
+      itemkey: system.cpu.util[,guest_nice]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    CPU guest time:
+      itemid: '42262'
+      iteminterval: 1m
+      itemkey: system.cpu.util[,guest]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    CPU idle time:
+      itemid: '42264'
+      iteminterval: 1m
+      itemkey: system.cpu.util[,idle]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    CPU interrupt time:
+      itemid: '42265'
+      iteminterval: 1m
+      itemkey: system.cpu.util[,interrupt]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    CPU iowait time:
+      itemid: '42258'
+      iteminterval: 1m
+      itemkey: system.cpu.util[,iowait]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    CPU nice time:
+      itemid: '42248'
+      iteminterval: 1m
+      itemkey: system.cpu.util[,nice]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    CPU softirq time:
+      itemid: '42247'
+      iteminterval: 1m
+      itemkey: system.cpu.util[,softirq]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    CPU steal time:
+      itemid: '42246'
+      iteminterval: 1m
+      itemkey: system.cpu.util[,steal]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    CPU system time:
+      itemid: '42229'
+      iteminterval: 1m
+      itemkey: system.cpu.util[,system]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    CPU user time:
+      itemid: '42230'
+      iteminterval: 1m
+      itemkey: system.cpu.util[,user]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    CPU utilization:
+      itemid: '42269'
+      iteminterval: '0'
+      itemkey: system.cpu.util
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    Checksum of /etc/passwd:
+      itemid: '42242'
+      iteminterval: 15m
+      itemkey: vfs.file.cksum[/etc/passwd,sha256]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'Cluster node []: Address':
+      itemid: '42753'
+      iteminterval: '0'
+      itemkey: zabbix.nodes.address[cl1rlaiol0001xddifzzgdbs3]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'Cluster node []: Last access age':
+      itemid: '42754'
+      iteminterval: '0'
+      itemkey: zabbix.nodes.lastaccess.age[cl1rlaiol0001xddifzzgdbs3]
+      itemstatus: '0'
+      itemunit: uptime
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Cluster node []: Last access time':
+      itemid: '42755'
+      iteminterval: '0'
+      itemkey: zabbix.nodes.lastaccess.time[cl1rlaiol0001xddifzzgdbs3]
+      itemstatus: '0'
+      itemunit: unixtime
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Cluster node []: Status':
+      itemid: '42756'
+      iteminterval: '0'
+      itemkey: zabbix.nodes.status[cl1rlaiol0001xddifzzgdbs3]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    Context switches per second:
+      itemid: '42261'
+      iteminterval: 1m
+      itemkey: system.cpu.switches
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    Free swap space:
+      itemid: '42228'
+      iteminterval: 1m
+      itemkey: system.swap.size[,free]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    Free swap space in %:
+      itemid: '42236'
+      iteminterval: 1m
+      itemkey: system.swap.size[,pfree]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    Host name of Zabbix agent running:
+      itemid: '42227'
+      iteminterval: 1h
+      itemkey: agent.hostname
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'Interface ens160: Bits received':
+      itemid: '42759'
+      iteminterval: 3m
+      itemkey: net.if.in["ens160"]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Interface ens160: Bits sent':
+      itemid: '42762'
+      iteminterval: 3m
+      itemkey: net.if.out["ens160"]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Interface ens160: Inbound packets discarded':
+      itemid: '42757'
+      iteminterval: 3m
+      itemkey: net.if.in["ens160",dropped]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Interface ens160: Inbound packets with errors':
+      itemid: '42758'
+      iteminterval: 3m
+      itemkey: net.if.in["ens160",errors]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Interface ens160: Interface type':
+      itemid: '42764'
+      iteminterval: 1h
+      itemkey: vfs.file.contents["/sys/class/net/ens160/type"]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Interface ens160: Operational status':
+      itemid: '42763'
+      iteminterval: 1m
+      itemkey: vfs.file.contents["/sys/class/net/ens160/operstate"]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Interface ens160: Outbound packets discarded':
+      itemid: '42760'
+      iteminterval: 3m
+      itemkey: net.if.out["ens160",dropped]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Interface ens160: Outbound packets with errors':
+      itemid: '42761'
+      iteminterval: 3m
+      itemkey: net.if.out["ens160",errors]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Interface ens160: Speed':
+      itemid: '42765'
+      iteminterval: 5m
+      itemkey: vfs.file.contents["/sys/class/net/ens160/speed"]
+      itemstatus: '0'
+      itemunit: bps
+      itemvaluetype: '3'
+      stat: 'NO'
+    Interrupts per second:
+      itemid: '42256'
+      iteminterval: 1m
+      itemkey: system.cpu.intr
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    Load average (15m avg):
+      itemid: '42259'
+      iteminterval: 1m
+      itemkey: system.cpu.load[all,avg15]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    Load average (1m avg):
+      itemid: '42249'
+      iteminterval: 1m
+      itemkey: system.cpu.load[all,avg1]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    Load average (5m avg):
+      itemid: '42257'
+      iteminterval: 1m
+      itemkey: system.cpu.load[all,avg5]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    Maximum number of open file descriptors:
+      itemid: '42251'
+      iteminterval: 1h
+      itemkey: kernel.maxfiles
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    Maximum number of processes:
+      itemid: '42252'
+      iteminterval: 1h
+      itemkey: kernel.maxproc
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    Memory utilization:
+      itemid: '42270'
+      iteminterval: '0'
+      itemkey: vm.memory.utilization
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    Number of CPUs:
+      itemid: '42260'
+      iteminterval: 1m
+      itemkey: system.cpu.num
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    Number of logged in users:
+      itemid: '42241'
+      iteminterval: 1m
+      itemkey: system.users.num
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    Number of processes:
+      itemid: '42253'
+      iteminterval: 1m
+      itemkey: proc.num
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    Number of running processes:
+      itemid: '42254'
+      iteminterval: 1m
+      itemkey: proc.num[,,run]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    Operating system:
+      itemid: '42234'
+      iteminterval: 1h
+      itemkey: system.sw.os
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    Operating system architecture:
+      itemid: '42233'
+      iteminterval: 1h
+      itemkey: system.sw.arch
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    Software installed:
+      itemid: '42235'
+      iteminterval: 1h
+      itemkey: system.sw.packages
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '4'
+      stat: 'NO'
+    System boot time:
+      itemid: '42255'
+      iteminterval: 15m
+      itemkey: system.boottime
+      itemstatus: '0'
+      itemunit: unixtime
+      itemvaluetype: '3'
+      stat: 'NO'
+    System description:
+      itemid: '42239'
+      iteminterval: 15m
+      itemkey: system.uname
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    System local time:
+      itemid: '42232'
+      iteminterval: 1m
+      itemkey: system.localtime
+      itemstatus: '0'
+      itemunit: unixtime
+      itemvaluetype: '3'
+      stat: 'NO'
+    System name:
+      itemid: '42231'
+      iteminterval: 1h
+      itemkey: system.hostname
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    System uptime:
+      itemid: '42240'
+      iteminterval: 30s
+      itemkey: system.uptime
+      itemstatus: '0'
+      itemunit: uptime
+      itemvaluetype: '3'
+      stat: 'NO'
+    Total memory:
+      itemid: '42245'
+      iteminterval: 1m
+      itemkey: vm.memory.size[total]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    Total swap space:
+      itemid: '42238'
+      iteminterval: 1m
+      itemkey: system.swap.size[,total]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    Version of Zabbix agent running:
+      itemid: '42250'
+      iteminterval: 1h
+      itemkey: agent.version
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    Zabbix agent availability:
+      itemid: '42266'
+      iteminterval: 1m
+      itemkey: zabbix[host,agent,available]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    Zabbix agent ping:
+      itemid: '42237'
+      iteminterval: 1m
+      itemkey: agent.ping
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Zabbix server: Configuration cache, % used':
+      itemid: '23273'
+      iteminterval: 1m
+      itemkey: zabbix[rcache,buffer,pused]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: History index cache, % used':
+      itemid: '23275'
+      iteminterval: 1m
+      itemkey: zabbix[wcache,index,pused]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: History write cache, % used':
+      itemid: '23274'
+      iteminterval: 1m
+      itemkey: zabbix[wcache,history,pused]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: LLD queue':
+      itemid: '28534'
+      iteminterval: 1m
+      itemkey: zabbix[lld_queue]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Zabbix server: Number of processed character values per second':
+      itemid: '10074'
+      iteminterval: 1m
+      itemkey: zabbix[wcache,values,str]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Number of processed log values per second':
+      itemid: '10075'
+      iteminterval: 1m
+      itemkey: zabbix[wcache,values,log]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Number of processed not supported values per second':
+      itemid: '10078'
+      iteminterval: 1m
+      itemkey: zabbix[wcache,values,not supported]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Number of processed numeric (float) values per second':
+      itemid: '10073'
+      iteminterval: 1m
+      itemkey: zabbix[wcache,values,float]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Number of processed numeric (unsigned) values per second':
+      itemid: '10076'
+      iteminterval: 1m
+      itemkey: zabbix[wcache,values,uint]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Number of processed text values per second':
+      itemid: '10077'
+      iteminterval: 1m
+      itemkey: zabbix[wcache,values,text]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Number of processed values per second':
+      itemid: '23277'
+      iteminterval: 1m
+      itemkey: zabbix[wcache,values]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Preprocessing queue':
+      itemid: '28249'
+      iteminterval: 1m
+      itemkey: zabbix[preprocessing_queue]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Zabbix server: Queue':
+      itemid: '23272'
+      iteminterval: 1m
+      itemkey: zabbix[queue]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Zabbix server: Queue over 10 minutes':
+      itemid: '23271'
+      iteminterval: 1m
+      itemkey: zabbix[queue,10m]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Zabbix server: Trend function cache, % misses':
+      itemid: '33025'
+      iteminterval: 1m
+      itemkey: zabbix[tcache,cache,pmisses]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Trend function cache, % unique requests':
+      itemid: '33024'
+      iteminterval: 1m
+      itemkey: zabbix[tcache,cache,pitems]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Trend write cache, % used':
+      itemid: '23276'
+      iteminterval: 1m
+      itemkey: zabbix[wcache,trend,pused]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of LLD manager internal processes, in %':
+      itemid: '28536'
+      iteminterval: 1m
+      itemkey: zabbix[process,lld manager,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of LLD worker internal processes, in %':
+      itemid: '28538'
+      iteminterval: 1m
+      itemkey: zabbix[process,lld worker,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of ODBC poller data collector processes, in %':
+      itemid: '39823'
+      iteminterval: 1m
+      itemkey: zabbix[process,odbc poller,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of alert manager internal processes, in %':
+      itemid: '25371'
+      iteminterval: 1m
+      itemkey: zabbix[process,alert manager,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of alert syncer internal processes, in %':
+      itemid: '29823'
+      iteminterval: 1m
+      itemkey: zabbix[process,alert syncer,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of alerter internal processes, in %':
+      itemid: '23252'
+      iteminterval: 1m
+      itemkey: zabbix[process,alerter,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of availability manager internal processes, in %':
+      itemid: '33026'
+      iteminterval: 1m
+      itemkey: zabbix[process,availability manager,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of configuration syncer internal processes, in %':
+      itemid: '23253'
+      iteminterval: 1m
+      itemkey: zabbix[process,configuration syncer,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of discoverer data collector processes, in %':
+      itemid: '23255'
+      iteminterval: 1m
+      itemkey: zabbix[process,discoverer,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of escalator internal processes, in %':
+      itemid: '23256'
+      iteminterval: 1m
+      itemkey: zabbix[process,escalator,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of history poller data collector processes, in %':
+      itemid: '33027'
+      iteminterval: 1m
+      itemkey: zabbix[process,history poller,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of history syncer internal processes, in %':
+      itemid: '23257'
+      iteminterval: 1m
+      itemkey: zabbix[process,history syncer,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of housekeeper internal processes, in %':
+      itemid: '23258'
+      iteminterval: 1m
+      itemkey: zabbix[process,housekeeper,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of http poller data collector processes, in %':
+      itemid: '23259'
+      iteminterval: 1m
+      itemkey: zabbix[process,http poller,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of icmp pinger data collector processes, in %':
+      itemid: '23260'
+      iteminterval: 1m
+      itemkey: zabbix[process,icmp pinger,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of ipmi manager internal processes, in %':
+      itemid: '25367'
+      iteminterval: 1m
+      itemkey: zabbix[process,ipmi manager,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of ipmi poller data collector processes, in %':
+      itemid: '23261'
+      iteminterval: 1m
+      itemkey: zabbix[process,ipmi poller,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of java poller data collector processes, in %':
+      itemid: '23262'
+      iteminterval: 1m
+      itemkey: zabbix[process,java poller,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of poller data collector processes, in %':
+      itemid: '23264'
+      iteminterval: 1m
+      itemkey: zabbix[process,poller,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of preprocessing manager internal processes, in %':
+      itemid: '25667'
+      iteminterval: 1m
+      itemkey: zabbix[process,preprocessing manager,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of preprocessing worker internal processes, in %':
+      itemid: '25668'
+      iteminterval: 1m
+      itemkey: zabbix[process,preprocessing worker,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of proxy poller data collector processes, in %':
+      itemid: '23265'
+      iteminterval: 1m
+      itemkey: zabbix[process,proxy poller,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of report manager internal processes, in %':
+      itemid: '34319'
+      iteminterval: 1m
+      itemkey: zabbix[process,report manager,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of report writer internal processes, in %':
+      itemid: '34318'
+      iteminterval: 1m
+      itemkey: zabbix[process,report writer,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of self-monitoring internal processes, in %':
+      itemid: '23266'
+      iteminterval: 1m
+      itemkey: zabbix[process,self-monitoring,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of service manager internal processes, in %':
+      itemid: '35277'
+      iteminterval: 1m
+      itemkey: zabbix[process,service manager,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of snmp trapper data collector processes, in %':
+      itemid: '23267'
+      iteminterval: 1m
+      itemkey: zabbix[process,snmp trapper,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of task manager internal processes, in %':
+      itemid: '23664'
+      iteminterval: 1m
+      itemkey: zabbix[process,task manager,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of timer internal processes, in %':
+      itemid: '23268'
+      iteminterval: 1m
+      itemkey: zabbix[process,timer,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of trapper data collector processes, in %':
+      itemid: '23269'
+      iteminterval: 1m
+      itemkey: zabbix[process,trapper,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of trigger housekeeper internal processes, in %':
+      itemid: '35275'
+      iteminterval: 1m
+      itemkey: zabbix[process,trigger housekeeper,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of unreachable poller data collector processes, in %':
+      itemid: '23270'
+      iteminterval: 1m
+      itemkey: zabbix[process,unreachable poller,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Utilization of vmware data collector processes, in %':
+      itemid: '23328'
+      iteminterval: 1m
+      itemkey: zabbix[process,vmware collector,avg,busy]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: VMware cache, % used':
+      itemid: '23635'
+      iteminterval: 1m
+      itemkey: zabbix[vmware,buffer,pused]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Value cache hits':
+      itemid: '23625'
+      iteminterval: 1m
+      itemkey: zabbix[vcache,cache,hits]
+      itemstatus: '0'
+      itemunit: vps
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Value cache misses':
+      itemid: '23628'
+      iteminterval: 1m
+      itemkey: zabbix[vcache,cache,misses]
+      itemstatus: '0'
+      itemunit: vps
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Value cache operating mode':
+      itemid: '23662'
+      iteminterval: 1m
+      itemkey: zabbix[vcache,cache,mode]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'Zabbix server: Value cache, % used':
+      itemid: '23620'
+      iteminterval: 1m
+      itemkey: zabbix[vcache,buffer,pused]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'Zabbix server: Version':
+      itemid: '35276'
+      iteminterval: 1m
+      itemkey: zabbix[version]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    Zabbix stats cluster:
+      itemid: '39805'
+      iteminterval: 1m
+      itemkey: zabbix[cluster,discovery,nodes]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '4'
+      stat: 'NO'
+    'sda: Disk average queue size (avgqu-sz)':
+      itemid: '42774'
+      iteminterval: '0'
+      itemkey: vfs.dev.queue_size[sda]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    'sda: Disk read rate':
+      itemid: '42773'
+      iteminterval: '0'
+      itemkey: vfs.dev.read.rate[sda]
+      itemstatus: '0'
+      itemunit: '!r/s'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'sda: Disk read request avg waiting time (r_await)':
+      itemid: '42766'
+      iteminterval: 1m
+      itemkey: vfs.dev.read.await[sda]
+      itemstatus: '0'
+      itemunit: '!ms'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'sda: Disk read time (rate)':
+      itemid: '42772'
+      iteminterval: '0'
+      itemkey: vfs.dev.read.time.rate[sda]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    'sda: Disk utilization':
+      itemid: '42771'
+      iteminterval: '0'
+      itemkey: vfs.dev.util[sda]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'sda: Disk write rate':
+      itemid: '42770'
+      iteminterval: '0'
+      itemkey: vfs.dev.write.rate[sda]
+      itemstatus: '0'
+      itemunit: '!w/s'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'sda: Disk write request avg waiting time (w_await)':
+      itemid: '42767'
+      iteminterval: 1m
+      itemkey: vfs.dev.write.await[sda]
+      itemstatus: '0'
+      itemunit: '!ms'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'sda: Disk write time (rate)':
+      itemid: '42769'
+      iteminterval: '0'
+      itemkey: vfs.dev.write.time.rate[sda]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'NO'
+    'sda: Get stats':
+      itemid: '42768'
+      iteminterval: 1m
+      itemkey: vfs.file.contents[/sys/block/sda/stat]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '4'
+      stat: 'NO'
+  stat: 'NO'
+server G6:
+  hostid: '10517'
+  items: {}
+  stat: 'NO'
+vmware_local:
+  hostid: '10518'
+  items:
+    'VMware: Ballooned memory':
+      itemid: '42837'
+      iteminterval: 1m
+      itemkey: vmware.hv.memory.size.ballooned[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Bios UUID':
+      itemid: '42838'
+      iteminterval: 1h
+      itemkey: vmware.hv.hw.uuid[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'VMware: CPU cores':
+      itemid: '42843'
+      iteminterval: 1h
+      itemkey: vmware.hv.hw.cpu.num[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: CPU frequency':
+      itemid: '42845'
+      iteminterval: 1h
+      itemkey: vmware.hv.hw.cpu.freq[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: Hz
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: CPU latency in percents':
+      itemid: '42800'
+      iteminterval: 1m
+      itemkey: vmware.vm.cpu.latency[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'VMware: CPU model':
+      itemid: '42844'
+      iteminterval: 1h
+      itemkey: vmware.hv.hw.cpu.model[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'VMware: CPU readiness latency in percents':
+      itemid: '42805'
+      iteminterval: 1m
+      itemkey: vmware.vm.cpu.readiness[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'VMware: CPU ready':
+      itemid: '42796'
+      iteminterval: 1m
+      itemkey: vmware.vm.cpu.ready[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: ms
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: CPU swap-in latency in percents':
+      itemid: '42804'
+      iteminterval: 1m
+      itemkey: vmware.vm.cpu.swapwait[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: CPU threads':
+      itemid: '42842'
+      iteminterval: 1h
+      itemkey: vmware.hv.hw.cpu.threads[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: CPU usage':
+      itemid: '42848'
+      iteminterval: 1m
+      itemkey: vmware.hv.cpu.usage[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: Hz
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: CPU usage in percents':
+      itemid: '42853'
+      iteminterval: 1m
+      itemkey: vmware.hv.cpu.usage.perf[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'VMware: CPU utilization':
+      itemid: '42852'
+      iteminterval: 1m
+      itemkey: vmware.hv.cpu.utilization[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'VMware: Cluster name':
+      itemid: '42779'
+      iteminterval: 1h
+      itemkey: vmware.vm.cluster.name[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'VMware: Committed storage space':
+      itemid: '42783'
+      iteminterval: 1m
+      itemkey: vmware.vm.storage.committed[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Compressed memory':
+      itemid: '42791'
+      iteminterval: 1m
+      itemkey: vmware.vm.memory.size.compressed[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Datacenter name':
+      itemid: '42847'
+      iteminterval: 1h
+      itemkey: vmware.hv.datacenter.name[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'VMware: Event log':
+      itemid: '42855'
+      iteminterval: 1m
+      itemkey: vmware.eventlog[{$VMWARE.URL},skip]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '2'
+      stat: 'NO'
+    'VMware: Full name':
+      itemid: '42856'
+      iteminterval: 1h
+      itemkey: vmware.fullname[{$VMWARE.URL}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'VMware: Get sensors':
+      itemid: '42854'
+      iteminterval: 1m
+      itemkey: vmware.hv.sensors.get[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '4'
+      stat: 'NO'
+    'VMware: Guest memory swapped':
+      itemid: '42802'
+      iteminterval: 1m
+      itemkey: vmware.vm.guest.memory.size.swapped[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Guest memory usage':
+      itemid: '42787'
+      iteminterval: 1m
+      itemkey: vmware.vm.memory.size.usage.guest[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Host memory consumed':
+      itemid: '42798'
+      iteminterval: 1m
+      itemkey: vmware.vm.memory.size.consumed[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Host memory usage':
+      itemid: '42786'
+      iteminterval: 1m
+      itemkey: vmware.vm.memory.size.usage.host[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Host memory usage in percents':
+      itemid: '42799'
+      iteminterval: 1m
+      itemkey: vmware.vm.memory.usage[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'NO'
+    'VMware: Hypervisor name':
+      itemid: '42793'
+      iteminterval: 1h
+      itemkey: vmware.vm.hv.name[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'VMware: Hypervisor ping':
+      itemid: '42829'
+      iteminterval: 1m
+      itemkey: icmpping[]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Memory size':
+      itemid: '42785'
+      iteminterval: 1h
+      itemkey: vmware.vm.memory.size[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Model':
+      itemid: '42840'
+      iteminterval: 1h
+      itemkey: vmware.hv.hw.model[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'VMware: Number of bytes received':
+      itemid: '42835'
+      iteminterval: 1m
+      itemkey: vmware.hv.network.in[{$VMWARE.URL},{$VMWARE.HV.UUID},bps]
+      itemstatus: '0'
+      itemunit: Bps
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Number of bytes transmitted':
+      itemid: '42834'
+      iteminterval: 1m
+      itemkey: vmware.hv.network.out[{$VMWARE.URL},{$VMWARE.HV.UUID},bps]
+      itemstatus: '0'
+      itemunit: Bps
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Number of guest VMs':
+      itemid: '42849'
+      iteminterval: 1h
+      itemkey: vmware.hv.vm.num[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Number of virtual CPUs':
+      itemid: '42789'
+      iteminterval: 1h
+      itemkey: vmware.vm.cpu.num[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Overall status':
+      itemid: '42833'
+      iteminterval: 1m
+      itemkey: vmware.hv.status[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Power state':
+      itemid: '42784'
+      iteminterval: 1m
+      itemkey: vmware.vm.powerstate[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Power usage':
+      itemid: '42850'
+      iteminterval: 1m
+      itemkey: vmware.hv.power[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: '!W'
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Power usage maximum allowed':
+      itemid: '42851'
+      iteminterval: 1m
+      itemkey: vmware.hv.power[{$VMWARE.URL},{$VMWARE.HV.UUID},max]
+      itemstatus: '0'
+      itemunit: '!W'
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Private memory':
+      itemid: '42790'
+      iteminterval: 1m
+      itemkey: vmware.vm.memory.size.private[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Shared memory':
+      itemid: '42788'
+      iteminterval: 1m
+      itemkey: vmware.vm.memory.size.shared[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Swapped memory':
+      itemid: '42780'
+      iteminterval: 1m
+      itemkey: vmware.vm.memory.size.swapped[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Total memory':
+      itemid: '42841'
+      iteminterval: 1h
+      itemkey: vmware.hv.hw.memory[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Uncommitted storage space':
+      itemid: '42782'
+      iteminterval: 1m
+      itemkey: vmware.vm.storage.uncommitted[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Unshared storage space':
+      itemid: '42781'
+      iteminterval: 1m
+      itemkey: vmware.vm.storage.unshared[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Uptime':
+      itemid: '42832'
+      iteminterval: 1m
+      itemkey: vmware.hv.uptime[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: uptime
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Uptime of guest OS':
+      itemid: '42801'
+      iteminterval: 1m
+      itemkey: vmware.vm.guest.osuptime[{$VMWARE.URL},{$VMWARE.VM.UUID}]
+      itemstatus: '0'
+      itemunit: uptime
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Used memory':
+      itemid: '42836'
+      iteminterval: 1m
+      itemkey: vmware.hv.memory.used[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: B
+      itemvaluetype: '3'
+      stat: 'NO'
+    'VMware: Vendor':
+      itemid: '42830'
+      iteminterval: 1h
+      itemkey: vmware.hv.hw.vendor[{$VMWARE.URL},{$VMWARE.HV.UUID}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'VMware: Version':
+      itemid: '42857'
+      iteminterval: 1h
+      itemkey: vmware.version[{$VMWARE.URL}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'Velocloud: Clear data':
+      itemid: '42860'
+      iteminterval: '0'
+      itemkey: velocloud.get.clear_metrics
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '4'
+      stat: 'NO'
+    'Velocloud: Get data':
+      itemid: '42859'
+      iteminterval: 1m
+      itemkey: velocloud.get
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '4'
+      stat: 'NO'
+    'Velocloud: Get data collection errors':
+      itemid: '42861'
+      iteminterval: '0'
+      itemkey: velocloud.get.error
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '4'
+      stat: 'NO'
+    'Velocloud: Orchestrator API version':
+      itemid: '42862'
+      iteminterval: '0'
+      itemkey: velocloud.orchestrator.api_version
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '4'
+      stat: 'NO'
+    'Velocloud: Orchestrator build':
+      itemid: '42863'
+      iteminterval: '0'
+      itemkey: velocloud.orchestrator.build
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'Velocloud: Orchestrator version':
+      itemid: '42864'
+      iteminterval: '0'
+      itemkey: velocloud.orchestrator.version
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'NO'
+    'Velocloud: System properties':
+      itemid: '42858'
+      iteminterval: 6h
+      itemkey: velocloud.system.properties
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '4'
+      stat: 'NO'
+  stat: 'NO'
+zabbix 0.31:
+  hostid: '10524'
+  items:
+    App status:
+      itemid: '43073'
+      iteminterval: '0'
+      itemkey: app.stat
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'YES'
+    'Cluster node []: Address':
+      itemid: '43069'
+      iteminterval: '0'
+      itemkey: zabbix.nodes.address[cl1rlaiol0001xddifzzgdbs3]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'YES'
+    'Cluster node []: Last access age':
+      itemid: '43070'
+      iteminterval: '0'
+      itemkey: zabbix.nodes.lastaccess.age[cl1rlaiol0001xddifzzgdbs3]
+      itemstatus: '0'
+      itemunit: uptime
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Cluster node []: Last access time':
+      itemid: '43071'
+      iteminterval: '0'
+      itemkey: zabbix.nodes.lastaccess.time[cl1rlaiol0001xddifzzgdbs3]
+      itemstatus: '0'
+      itemunit: unixtime
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Cluster node []: Status':
+      itemid: '43072'
+      iteminterval: '0'
+      itemkey: zabbix.nodes.status[cl1rlaiol0001xddifzzgdbs3]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Remote Zabbix server: Configuration cache, % used':
+      itemid: '43011'
+      iteminterval: '0'
+      itemkey: rcache.buffer.pused
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: History index cache, % used':
+      itemid: '43010'
+      iteminterval: '0'
+      itemkey: wcache.index.pused
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: History write cache, % used':
+      itemid: '43017'
+      iteminterval: '0'
+      itemkey: wcache.history.pused
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: LLD queue':
+      itemid: '43052'
+      iteminterval: '0'
+      itemkey: lld_queue
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Remote Zabbix server: Number of processed character values per second':
+      itemid: '43024'
+      iteminterval: '0'
+      itemkey: wcache.values.str
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Number of processed log values per second':
+      itemid: '43022'
+      iteminterval: '0'
+      itemkey: wcache.values.log
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Number of processed not supported values per second':
+      itemid: '43023'
+      iteminterval: '0'
+      itemkey: wcache.values.not_supported
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Number of processed numeric (float) values per second':
+      itemid: '43021'
+      iteminterval: '0'
+      itemkey: wcache.values.float
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Number of processed numeric (unsigned) values per second':
+      itemid: '43026'
+      iteminterval: '0'
+      itemkey: wcache.values.uint
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Number of processed text values per second':
+      itemid: '43025'
+      iteminterval: '0'
+      itemkey: wcache.values.text
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Number of processed values per second':
+      itemid: '43018'
+      iteminterval: '0'
+      itemkey: wcache.values
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Preprocessing queue':
+      itemid: '43028'
+      iteminterval: '0'
+      itemkey: preprocessing_queue
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Remote Zabbix server: Trend function cache, % misses':
+      itemid: '43056'
+      iteminterval: '0'
+      itemkey: tcache.pmisses
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Trend function cache, % unique requests':
+      itemid: '43055'
+      iteminterval: '0'
+      itemkey: tcache.pitems
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Trend write cache, % used':
+      itemid: '43019'
+      iteminterval: '0'
+      itemkey: wcache.trend.pused
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of LLD manager internal processes, in %':
+      itemid: '43050'
+      iteminterval: '0'
+      itemkey: process.lld_manager.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of LLD worker internal processes, in %':
+      itemid: '43051'
+      iteminterval: '0'
+      itemkey: process.lld_worker.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of ODBC poller data collector processes, in %':
+      itemid: '43063'
+      iteminterval: '0'
+      itemkey: process.odbc_poller.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of alert manager internal processes, in %':
+      itemid: '43031'
+      iteminterval: '0'
+      itemkey: process.alert_manager.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of alert syncer internal processes, in %':
+      itemid: '43053'
+      iteminterval: '0'
+      itemkey: process.alert_syncer.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of alerter internal processes, in %':
+      itemid: '43029'
+      iteminterval: '0'
+      itemkey: process.alerter.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of availability manager internal processes, in %':
+      itemid: '43057'
+      iteminterval: '0'
+      itemkey: process.availability_manager.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of configuration syncer internal processes, in %':
+      itemid: '43032'
+      iteminterval: '0'
+      itemkey: process.configuration_syncer.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of discoverer data collector processes, in %':
+      itemid: '43033'
+      iteminterval: '0'
+      itemkey: process.discoverer.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of escalator internal processes, in %':
+      itemid: '43034'
+      iteminterval: '0'
+      itemkey: process.escalator.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of history poller data collector processes, in %':
+      itemid: '43058'
+      iteminterval: '0'
+      itemkey: process.history_poller.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of history syncer internal processes, in %':
+      itemid: '43035'
+      iteminterval: '0'
+      itemkey: process.history_syncer.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of housekeeper internal processes, in %':
+      itemid: '43036'
+      iteminterval: '0'
+      itemkey: process.housekeeper.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of http poller data collector processes, in %':
+      itemid: '43037'
+      iteminterval: '0'
+      itemkey: process.http_poller.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of icmp pinger data collector processes, in %':
+      itemid: '43038'
+      iteminterval: '0'
+      itemkey: process.icmp_pinger.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of ipmi manager internal processes, in %':
+      itemid: '43030'
+      iteminterval: '0'
+      itemkey: process.ipmi_manager.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of ipmi poller data collector processes, in %':
+      itemid: '43039'
+      iteminterval: '0'
+      itemkey: process.ipmi_poller.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of java poller data collector processes, in %':
+      itemid: '43041'
+      iteminterval: '0'
+      itemkey: process.java_poller.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of poller data collector processes, in %':
+      itemid: '43042'
+      iteminterval: '0'
+      itemkey: process.poller.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of preprocessing manager internal processes, in %':
+      itemid: '43043'
+      iteminterval: '0'
+      itemkey: process.preprocessing_manager.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of preprocessing worker internal processes, in %':
+      itemid: '43044'
+      iteminterval: '0'
+      itemkey: process.preprocessing_worker.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of proxy poller data collector processes, in %':
+      itemid: '43045'
+      iteminterval: '0'
+      itemkey: process.proxy_poller.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of report manager internal processes, in %':
+      itemid: '43059'
+      iteminterval: '0'
+      itemkey: process.report_manager.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of report writer internal processes, in %':
+      itemid: '43060'
+      iteminterval: '0'
+      itemkey: process.report_writer.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of self-monitoring internal processes, in %':
+      itemid: '43046'
+      iteminterval: '0'
+      itemkey: process.self-monitoring.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of service manager internal processes, in %':
+      itemid: '43062'
+      iteminterval: '0'
+      itemkey: process.service_manager.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of snmp trapper data collector processes, in %':
+      itemid: '43047'
+      iteminterval: '0'
+      itemkey: process.snmp_trapper.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of task manager internal processes, in %':
+      itemid: '43048'
+      iteminterval: '0'
+      itemkey: process.task_manager.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of timer internal processes, in %':
+      itemid: '43040'
+      iteminterval: '0'
+      itemkey: process.timer.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of trapper data collector processes, in %':
+      itemid: '43049'
+      iteminterval: '0'
+      itemkey: process.trapper.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of trigger housekeeper internal processes, in %':
+      itemid: '43061'
+      iteminterval: '0'
+      itemkey: process.trigger_housekeeper.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of unreachable poller data collector processes, in %':
+      itemid: '43020'
+      iteminterval: '0'
+      itemkey: process.unreachable_poller.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Utilization of vmware data collector processes, in %':
+      itemid: '43027'
+      iteminterval: '0'
+      itemkey: process.vmware_collector.avg.busy
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: VMware cache, % used':
+      itemid: '43016'
+      iteminterval: '0'
+      itemkey: vmware.buffer.pused
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Value cache hits':
+      itemid: '43013'
+      iteminterval: '0'
+      itemkey: vcache.cache.hits
+      itemstatus: '0'
+      itemunit: vps
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Value cache misses':
+      itemid: '43014'
+      iteminterval: '0'
+      itemkey: vcache.cache.misses
+      itemstatus: '0'
+      itemunit: vps
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Value cache operating mode':
+      itemid: '43015'
+      iteminterval: '0'
+      itemkey: vcache.cache.mode
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Remote Zabbix server: Value cache, % used':
+      itemid: '43012'
+      iteminterval: '0'
+      itemkey: vcache.buffer.pused
+      itemstatus: '0'
+      itemunit: '%'
+      itemvaluetype: '0'
+      stat: 'YES'
+    'Remote Zabbix server: Version':
+      itemid: '43054'
+      iteminterval: '0'
+      itemkey: version
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '1'
+      stat: 'YES'
+    'Remote Zabbix server: Zabbix stats':
+      itemid: '43007'
+      iteminterval: 5m
+      itemkey: zabbix[stats,{$ADDRESS},{$PORT}]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '4'
+      stat: 'YES'
+    'Remote Zabbix server: Zabbix stats queue':
+      itemid: '43008'
+      iteminterval: 1m
+      itemkey: zabbix[stats,{$ADDRESS},{$PORT},queue]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    'Remote Zabbix server: Zabbix stats queue over 10m':
+      itemid: '43009'
+      iteminterval: 1m
+      itemkey: zabbix[stats,{$ADDRESS},{$PORT},queue,10m]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '3'
+      stat: 'YES'
+    status:
+      itemid: '43006'
+      iteminterval: 5m
+      itemkey: zabbix[stats,192.168.0.31,10051]
+      itemstatus: '0'
+      itemunit: ''
+      itemvaluetype: '4'
+      stat: 'YES'
+  stat: 'YES'

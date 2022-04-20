@@ -1,15 +1,12 @@
 import requests
-import json
 import yaml
 import src.config as conf
 
 
 class GetItemsHosts(object):
-
     def __init__(self):
         self.hosts_ref = {}
         self.hosts_cpy = {}
-
         self.main()
 
     def get_host_ref(self):
@@ -63,8 +60,8 @@ class GetItemsHosts(object):
                           })
 
         for i in range(len(r.json()["result"])):
-            item = {"itemid": "", "itemkey": "", "iteminterval": "", "itemunit": "", "itemstatus": "",
-                    "itemvaluetype": "", "stat": "NULL"}
+            # item = {"itemid": "", "itemkey": "", "iteminterval": "", "itemunit": "", "itemstatus": "",
+            #         "itemvaluetype": "", "stat": "NULL"}
             item = {"itemid": r.json()["result"][i]["itemid"], "itemkey": r.json()["result"][i]["key_"],
                     "iteminterval": r.json()["result"][i]["delay"],
                     "itemunit": r.json()["result"][i]["units"], "itemstatus": r.json()["result"][i]["status"],
@@ -75,21 +72,26 @@ class GetItemsHosts(object):
         elif zabbix_type == 'cpy':
             self.hosts_cpy[hostname]["items"] = items
 
-    def convert_dict_to_yaml(self, dict_name, zabbix_address):
-        z_na = "{}.{}".format(zabbix_address.split(".")[2], zabbix_address.split(".")[3].split('/')[0])
-        filename = "output.{}.yaml".format(z_na)
-        with open(filename, "w") as f:
-            f.write(yaml.dump(dict_name, default_flow_style=False))
+    def convert_dict_to_yaml(self, typ):
+        if typ == 'ref':
+            z_na = "log/output_{}_{}.yaml".format(conf.ZABBIX_REF_ADDRESS.split(".")[2],
+                                                  conf.ZABBIX_REF_ADDRESS.split(".")[3].split('/')[0])
+            with open(z_na, "w") as f:
+                f.write(yaml.dump(self.hosts_ref, default_flow_style=False))
+        elif typ == 'cpy':
+            z_na = "log/output_{}_{}.yaml".format(conf.ZABBIX_CPY_ADDRESS.split(".")[2],
+                                                  conf.ZABBIX_CPY_ADDRESS.split(".")[3].split('/')[0])
+            with open(z_na, "w") as f:
+                f.write(yaml.dump(self.hosts_cpy, default_flow_style=False))
 
     def main(self):
         self.get_host_ref()
         self.get_host_cpy()
-        for dic in [self.hosts_ref, self.hosts_cpy]:
-            for host in dic:
-                self.get_item_from_host(dic[host]["hostid"], host)
-
-        # self.insert_json_to_database()
-        with open(self.filename, 'w', encoding='utf-8') as f:
-            json.dump(self.hosts, f, ensure_ascii=False, indent=4)
-        # self.read_from_database()
-        # self.convert_dict_to_yaml()
+        for host in self.hosts_ref:
+            self.get_item_from_host(self.hosts_ref[host]["hostid"], host, conf.ZABBIX_REF_ADDRESS,
+                                    conf.ZABBIX_REF_TOKEN, 'ref')
+            self.convert_dict_to_yaml('ref')
+        for host in self.hosts_cpy:
+            self.get_item_from_host(self.hosts_cpy[host]["hostid"], host, conf.ZABBIX_CPY_ADDRESS,
+                                    conf.ZABBIX_CPY_TOKEN, 'cpy')
+            self.convert_dict_to_yaml('cpy')

@@ -1,3 +1,5 @@
+import yaml
+
 import src.get_item_zabbix as get
 import src.compare_json as compare
 import src.db_worker as db
@@ -6,11 +8,14 @@ import time
 
 if __name__ == '__main__':
     start = time.time()
-    getitems_hostref = get.GetItemsHosts(zabbixip="192.168.0.29",
-                                         token="1eb1a810f7ecaa0d6e33a30fe43d0f5a849aa31ff6ac5ddfc6bb88e02efa2326",
-                                         types="ref")
-    getitems_hostcpy = get.GetItemsHosts(zabbixip="192.168.0.31",
-                                         token="a66bfc4d120a5357ec2b75cfab84be67b9eb8c52c76dbc4d1f4e9cfebb33bc0d")
+    getitems_host = get.GetItemsHosts()
+    getitems_host.main()
+    host_ref = getitems_host.hosts_ref
+    host_cpy = getitems_host.hosts_cpy
+    comp_items = compare.JsonComparer(host_ref, host_cpy)
+    comp_items_dic = comp_items.out_dic
+    with open('log/out_dic.yaml', "w") as f:
+        f.write(yaml.dump(comp_items_dic, default_flow_style=False))
     end = time.time()
     total_time = end - start
     print("\n"+ str(total_time))

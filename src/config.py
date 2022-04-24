@@ -15,3 +15,5 @@ for zabb in conf_file:
     elif conf_file[zabb]['type'] == 'cpy':
         ZABBIX_CPY_ADDRESS = 'http://{}/zabbix/api_jsonrpc.php'.format(conf_file[zabb]['addr'])
         ZABBIX_CPY_TOKEN = conf_file[zabb]['token']
+
+ZABBIX_GROUP_DEF = "zabbix.0.29"

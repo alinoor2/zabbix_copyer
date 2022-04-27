@@ -12,19 +12,56 @@ class JsonComparer(object):
         self.dic_ref = ref
         self.dic_cpy = cpy
         self.out_dic = ref
+        self.out_dic["Zabbix server copy"] = self.out_dic["Zabbix server"]
+        self.out_list = [[], []]  # [[different hostname list], [different items list]]
         self.extract_name_items_diff()
 
     def extract_name_items_diff(self):
-        for host in self.dic_ref:   # Read the reference dictionary for each host
-            if host in self.dic_cpy:    # The comparison of hosts is done in the destination dictionary.
+        for host in self.dic_ref:  # Read the reference dictionary for each host
+            if ("Zabbix server copy" if host == "Zabbix server" else host) in self.dic_cpy:
+                # The comparison of hosts is done in the destination dictionary.
                 # If the host is available, the existence of the items is checked
-                self.out_dic[host]["stat"] = "NO"   # If present, the stat value is changed to "NO"
-                for item in self.dic_ref[host]["items"]:
-                    if item in self.dic_cpy[host]["items"]:   # If present, the stat value is changed to "NO" else "YES"
-                        self.out_dic[host]["items"][item]["stat"] = "NO"
+                self.out_dic["Zabbix server copy" if host == "Zabbix server" else host]["stat"] = "NO"
+                # If present, the stat value is changed to "NO"
+                for item in self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"]:
+                    if item in self.dic_cpy["Zabbix server copy" if host == "Zabbix server" else host]["items"]:
+                        # If present, the stat value is changed to "NO" else "YES"
+                        self.out_dic["Zabbix server copy" if host == "Zabbix server" else host]["items"][item]["stat"] \
+                            = "NO"
                     else:
-                        self.out_dic[host]["items"][item]["stat"] = "YES"
-            else:   # If the host isn't available, the stat values is changed to "YES"
-                self.out_dic[host]["stat"] = "YES"
-                for item in self.dic_ref[host]["items"]:
-                    self.out_dic[host]["items"][item]["stat"] = "YES"
+                        self.out_dic["Zabbix server copy" if host == "Zabbix server" else host]["items"][item]["stat"] \
+                            = "YES"
+                        intervale = '5m' if self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["iteminterval"] == '0' else \
+                            self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["iteminterval"]
+                        item_new = ["Zabbix server copy" if host == "Zabbix server" else host,
+                                    self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["hostid"],
+                                    self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["itemid"],
+                                    item,
+                                    self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["itemkey"],
+                                    intervale,
+                                    self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["itemunit"],
+                                    self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["itemstatus"],
+                                    self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["itemvaluetype"],
+                                    self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["stat"]]
+                        self.out_list[1].append(item_new)
+            else:  # If the host isn't available, the stat values is changed to "YES"
+                self.out_dic["Zabbix server copy" if host == "Zabbix server" else host]["stat"] = "YES"
+                host_id = self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["hostid"]
+                host_new = ["Zabbix server copy" if host == "Zabbix server" else host, host_id]
+                self.out_list[0].append(host_new)
+                for item in self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"]:
+                    host = "Zabbix server" if host == "Zabbix server copy" else host
+                    self.out_dic["Zabbix server copy" if host == "Zabbix server" else host]["items"][item]["stat"] = "YES"
+                    intervale = '5m' if self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["iteminterval"] == '0' else \
+                        self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["iteminterval"]
+                    item_new = ["Zabbix server copy" if host == "Zabbix server" else host,
+                                self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["hostid"],
+                                self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["itemid"],
+                                item,
+                                self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["itemkey"],
+                                intervale,
+                                self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["itemunit"],
+                                self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["itemstatus"],
+                                self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["itemvaluetype"],
+                                self.dic_ref["Zabbix server" if host == "Zabbix server copy" else host]["items"][item]["stat"]]
+                    self.out_list[1].append(item_new)

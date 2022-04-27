@@ -1,0 +1,6 @@
+Package: zabbix-copyer
+Version: 0.0.1
+Maintainer: Ali Noorbakhsh
+Architecture: all
+Description: this application developed in python platform for copy first zabbix hosts and items
+             in second zabbix for monitor first zabbix items in second zabbix

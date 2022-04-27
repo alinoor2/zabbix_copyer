@@ -21,7 +21,7 @@ def main():
     comp_items_list = comp_items.out_list
     src.create_host_items_zabbix.creator_items_hosts(config.ZABBIX_CPY_ADDRESS, config.ZABBIX_CPY_TOKEN,
                                                      config.ZABBIX_REF_ADDRESS, config.ZABBIX_REF_TOKEN,
-                                                     "zabbix_0.29", comp_items_list)
+                                                     config.ZABBIX_GROUP_DEF, comp_items_list)
     # print(comp_items_list)
     # pprint(comp_items_dic.keys())
     # logging_level = config.LOGGING_LEVEL
